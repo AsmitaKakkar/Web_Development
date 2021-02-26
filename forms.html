@@ -12,28 +12,35 @@
         <form action="/loveyoumannabehen">
     <div>
         <label for="username">Enter Username:</label>
-        <input type="text" placeholder="Username" id="username">
+        <input type="text" placeholder="Username" name="username" id="username">
     
     </div>
     <div>
         <label for="password">Enter Password:</label>
-        <input type="password" placeholder="password" id="password">
+        <input type="password" placeholder="password" name="password" id="password">
     </div>
+
+    <div>
+        <label for="number">Select a number:</label>
+        <input type="number"placeholder="number" name="number" id="number">
+    </div>
+  
+  
     <div>
         <label for="color">Select Color:</label>
-        <input type="color" id="color">
+        <input type="color" name="color" id="color">
     </div>
     <div>
         <label for="date">Enter your date of birth:</label>
-        <input type="date" id="date">
+        <input type="date" name="date" id="date">
     </div>
     <div>
         <label for="month">Select the month:</label>
-        <input type="month" id="month">
+        <input type="month" name="month" id="month">
     </div>
     <div>
         <label for="checkbox">Are you agree to all the terms and conditions?</label>
-        <input type="checkbox" id="checkbox">
+        <input type="checkbox" name="checkbox" id="checkbox">
     </div>
     <div>
         <!--this button submits the form!!-->
@@ -49,6 +56,80 @@
 </form>
 <!--this is the button outside form which is a button but does not takes us to any other website-->
 <button>submitttttt meeeee!!</button>
+<h2>Hijacking Searches</h2>
+
+<h3>search google</h3>
+<form action="https://www.google.com/search?">
+    <input type="text" name="q" >
+
+    <button>i m going to google!!</button>
+</form>
+
+<h3>search youtube</h3>
+<form action=https://www.youtube.com/results?>
+    <input type="query" name="search_query">
+
+    <button>i m going to youtube !!</button>
+</form>
+
+
+<h3>search reddit</h3>
+<form action="https://www.reddit.com/">
+    <input type="text" name="q">
+
+    <input type="submit">
+
+</form>
+
+<form action="loveyouvishubaby!!">
+
+    <p>
+
+        <h2>Radio Buttons</h2>
+    
+        <h3>select any one of the choice:-</h3>
+    
+        <label for="s">S</label>
+        <input type="radio" name=size value="small" id="s">
+    
+        <label for="m">M</label>
+        <input type="radio" name="size"  value="medium" id="m">
+    
+        <label for="xl">XL</label>
+        <input type="radio" name="size" value ="Extra Large" id="xl">
+    
+        <button>submit</button>
+        
+    </p>
+        <p>
+            <h2>Select tags</h2>
+    
+        <label for="fav">Choose your favourite food!!</label>
+    
+        <select name="meal" id="fav">
+            <option value="">--Please choose an option--</option>
+            <option value="pizza">pizza</option>
+            <option value="pasta">pasta</option>
+            <option value="rajma chawal" selected >Rajma chawal </option>
+            <option value="chilly paneer">Chilly paneer</option>
+    
+        </select>
+    
+        </p>
+    
+        <p>
+            <label for="cheese">Amount of cheese you want in your burger ??</label>
+            <input type="range" id="cheese" name="Amount" min="1" max="50">
+            <button>go!!</button>
+        </p>
+
+        <p>
+            <label for="text">Any suggestions??</label>
+            <br>
+            <textarea name="suggestions" id="text" cols="30" rows="10" placeholder="type something here!!"></textarea>
+        </p>
+
+</form>
 
 </body>
 </html>
