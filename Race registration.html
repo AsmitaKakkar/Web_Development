@@ -12,46 +12,48 @@
             <h1>Race Registration!!</h1>
         </header>
        <main>
-           <label for="First Name" id="First Name">First Name:
-               <input type="text" required>
-
-           </label>
-           <label for="Last Name" id="Last Name">Last Name:
-               <input type="text" required>
-           </label>
+           <label for="First Name">First Name:</label>
+               <input type="text" id="First Name" required>
+           <label for="Last Name" >Last Name:</label>
+               <input type="text" id="Last Name" required>
        </main>
 
        <h4>Select a Race:</h4>
 
        <div>
 
-            <input type="radio">
-            <label for="funrun" id="funrun">Fun Run 5k</label>    
+            <input type="radio" name="race" id="funrun" value="funrun">
+            <label for="funrun" >Fun Run 5k</label>    
 
        </div>
 
        <div>
 
-           <input type="radio">
-           <label for="HalfMarathon" id="HalfMArathon">Half Marathon</label>
+           <input type="radio" id="HalfMArathon" name="race" value="HalfMarathon">
+           <label for="HalfMarathon" >Half Marathon</label>
 
        </div>
 
        <div>
 
-           <input type="radio">
-           <label for="FullMarathon" id="FullMarathon">Full Marathon:</label>
+           <input type="radio" id="FullMarathon" name="race" value="FullMarathon">
+           <label for="FullMarathon" >Full Marathon:</label>
        
         </div>
        <section>
 
-           <label for="email" value="password">Email</label>
+           <label for="email" value="password" <!--style="color:red"--> >Email</label>
            <input type="Email" id="email" required>
            <label for="password ">password:</label>
            <input type="password" id="password" minlength="8" maxlength="20" name="password"required>
 
        </section>
-      
+      <style>
+          password{
+              color:seagreen;s
+          }
+      </style>
+
     <div>
         <label for="age">Select Age Group</label>
         <select name="age group" id="age">
