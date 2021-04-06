@@ -1,0 +1,16 @@
+h2{
+    color:yellow;
+    background-color: maroon;
+}
+
+button{
+    color:magenta;
+    background-color: yellowgreen;
+    border-color:blue;
+    
+}
+
+p{
+    color:crimson;
+    background-color: cyan;
+}
