@@ -4,8 +4,8 @@ h2{
 }
 
 button{
-    color:hsl(20,80%,10%)
-    background-color: yellowgreen;
+    color:hsl(20,80%,10%);
+    background-color:yellowgreen;
     border-color:blue;
     
 }
