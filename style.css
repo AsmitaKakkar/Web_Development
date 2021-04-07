@@ -1,16 +1,20 @@
 h2{
     color:yellow;
-    background-color: maroon;
+    background-color: rgb(255,200,200);
 }
 
 button{
-    color:magenta;
+    color:hsl(20,80%,10%)
     background-color: yellowgreen;
     border-color:blue;
     
 }
 
 p{
-    color:crimson;
-    background-color: cyan;
+    color:maroon;
+    background-color: plum;
+}
+
+body{
+    background-color: #494f3f;
 }
