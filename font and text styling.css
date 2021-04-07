@@ -1,0 +1,34 @@
+h1
+{
+    text-align:center;
+    color: teal;
+    font-weight:200;
+    text-decoration: underline wavy yellow;
+    letter-spacing:10px;
+}
+
+p{
+    color:purple;
+    text-align: right;
+    text-decoration: underline dotted red;
+    line-height:2;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 10px;
+    color: maroon;
+    text-decoration: underline wavy yellow;
+}
+
+body{
+    background-color: mistyrose;
+}
+
+h3{
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color:olive;
+    text-decoration: line-through dotted red;
+}
