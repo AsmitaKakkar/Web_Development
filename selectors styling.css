@@ -1,0 +1,26 @@
+/* Universal Selectors */
+*{
+    color:rgba(255, 192, 203, 0.733);
+    /*background-color:crimson;*/
+}
+
+body{
+    background-color:crimson;
+}
+
+/* Element Selectors */
+
+button{
+    font-size: 20px;
+    background-color: darkkhaki;
+}
+
+/*Selector List */
+
+h1,h2,h3{
+    color:palegoldenrod;
+}
+
+#signup{
+    background-color:goldenrod;
+}
