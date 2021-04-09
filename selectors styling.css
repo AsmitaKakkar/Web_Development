@@ -21,6 +21,66 @@ h1,h2,h3{
     color:palegoldenrod;
 }
 
+
+/*ID Selectors */
+
 #signup{
     background-color:goldenrod;
+}
+
+/*Class Selectors */
+span{
+    color:rgb(5, 85, 29);
+}
+
+.tag{
+    background-color:lime;
+    color:tomato;
+}
+
+/* Descendant Selectors */
+.me a{
+    color:violet;
+}
+
+li a{
+    color:cadetblue;
+}
+
+/* Adjacent Selectors */
+h2 + button{
+    color:yellow;
+}
+
+/* Direct Descendent */
+div > a{
+    color:black;
+}
+
+/*Attribute Selector */
+
+input[type="password"]{
+    color:maroon;
+}
+
+div[class="me"]
+{
+    background-color:rosybrown;
+}
+
+/* Some extra Selectors */
+
+a[href*="extra"]{
+    color:seagreen;
+}
+
+/* Pseudo Classes */
+button:hover{
+    background-color:darkred;
+    color:wheat;
+}
+
+div button:hover{
+    background-color:darkgreen;
+    color:yellowgreen;
 }
