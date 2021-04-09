@@ -84,3 +84,35 @@ div button:hover{
     background-color:darkgreen;
     color:yellowgreen;
 }
+
+.me button:active{
+    background-color: skyblue;
+    color:slateblue;
+}
+
+.me:nth-of-type(2n){
+    background-color:rgb(91, 160, 160)
+}
+
+/* Pseudo Elements */
+
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+nav::first-line{
+    color:aqua;
+}
+
+nav::selection{
+    background-color: black;
+}
+
+
+nav::before{
+
+    content:"hey!!";
+    font-size: 40px;
+    font-weight: 700;
+}
