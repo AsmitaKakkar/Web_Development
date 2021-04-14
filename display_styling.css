@@ -29,3 +29,14 @@ p{
 body{
     background-color:rgb(243, 243, 70);
 }
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: tomato;
+    border: solid 5px black;
+    display:inline-block;
+    padding: 20px;
+    margin: 50px;
+
+}
