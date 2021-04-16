@@ -1,0 +1,15 @@
+#static #first{
+    background-color: greenyellow;
+    width:200px;
+    height: 200px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+#static #third{
+    background-color: greenyellow;
+    width: 200px;
+    height:200px;
+    display: inline-block;
+
+}
