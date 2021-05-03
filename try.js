@@ -1,0 +1,11 @@
+console.log("this is my javascript file");
+let s="Asmita kakkar is so cute she is the best Asmita ";
+let regex=/Asmita/g;
+let result=regex.test(s);
+console.log (result);
+let result2=regex.exec(s);
+console.log(result2);
+result2=regex.exec(s);
+console.log(result2);
+result2=regex.exec(s);
+console.log(result2);
