@@ -61,3 +61,13 @@ console.log("Numbers before swapping :- "+"a = "+a+" b = "+b);
 console.log("Numbers after swapping :- "+"a = "+a+" b = "+b);*/
 
 //to swap two numbers using arithmatic operations
+/*let a=194;
+let b=276;
+console.log("Numbers before swapping :- "+"a = "+a+" b="+b);
+
+a=a-b;
+b=a+b;
+a=b-a;
+console.log("Numbers after swapping :- "+"a = "+a+" b = "+b);
+*/
+
