@@ -71,3 +71,44 @@ a=b-a;
 console.log("Numbers after swapping :- "+"a = "+a+" b = "+b);
 */
 
+//program to splve quadratic equations
+/*let a=2;
+let b=3;
+let c=4;
+let discriminant=(b*b)-4*a*c;
+
+if(discriminant>0)
+{
+    let root1=-b/(2*a)+Math.sqrt(discriminant);
+    let root2=-b/(2*a)-Math.sqrt(discriminant);
+    console.log("root1 = "+root1,"root2 = "+root2);
+}
+else if (discriminant==0)
+{
+    root1=root2=-b/2*a;
+    console.log("root1 = "+root1,"root2 = "+root2);
+}
+else{
+    let real_part=-b/(2*a);
+    let imag_part=Math.sqrt(-discriminant)/(2*a);
+    console.log("real_part = "+real_part,"imag_part = "+imag_part);
+}*/
+
+
+
+//to check a number is positive negative or zero
+/*let num=-67; //any number we can get from the user
+if(num>0)
+{
+    console.log(num + " is a positive number !!");
+}
+else if (num<0)
+{
+    console.log(num + " is a negative number !!");
+}
+else 
+{
+    console .log (num + " is zero !!");
+}*/
+
+
