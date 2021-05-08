@@ -168,7 +168,7 @@ else{
 
 
 //program to write a prime numbers found in a given interval
-let upper_limit=50;
+/*let upper_limit=50;
 let lower_limit=1;
 
 let flag =true;
@@ -195,4 +195,15 @@ for(let num=lower_limit;num<=upper_limit;num++)
         console.log(num);
     }
 
+}*/
+
+
+
+//program to find the factorial of a number
+let num=5;
+let fact=1;
+for(let i=2;i<=num;i++)
+{
+    fact*=i;
 }
+console.log("Factorial of "+num+ "("+num+"!)"+" is = "+fact);
