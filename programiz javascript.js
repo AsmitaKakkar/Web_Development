@@ -125,7 +125,7 @@ else{
 
 
 //program to find largest among the three numbers
-let num1=586;
+/*let num1=586;
 let num2=777;
 let num3=73;
 
@@ -138,4 +138,29 @@ else if(num3>largest)
 {
     largest=num3;
 }
-console.log("Largest number among the three numbers "+ num1 , num2 +" and "+ num3 +" is "+largest);
+console.log("Largest number among the three numbers "+ num1 , num2 +" and "+ num3 +" is "+largest);*/
+
+
+//program to find the number is prime number or not
+let num=3;
+let flag=true;
+if(num==1)
+{
+    console.log(" 1 is neither a prime number nor a composite number!!");
+}
+else {
+    for (let i=2;i<num;i++)
+    {
+        if(num%i==0)
+        {
+            flag=false;
+        }
+    }
+}
+if(flag)
+{
+    console.log(num + " is a prime number !!");
+}
+else{
+    console.log(num + " is not a prime number!!");
+}
