@@ -124,3 +124,18 @@ else{
 }*/
 
 
+//program to find largest among the three numbers
+let num1=586;
+let num2=777;
+let num3=73;
+
+let largest=num1;
+if(num2>largest)
+{
+    largest=num2;
+}
+else if(num3>largest)
+{
+    largest=num3;
+}
+console.log("Largest number among the three numbers "+ num1 , num2 +" and "+ num3 +" is "+largest);
