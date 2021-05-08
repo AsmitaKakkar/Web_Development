@@ -142,7 +142,7 @@ console.log("Largest number among the three numbers "+ num1 , num2 +" and "+ num
 
 
 //program to find the number is prime number or not
-let num=3;
+/*let num=3;
 let flag=true;
 if(num==1)
 {
@@ -163,4 +163,36 @@ if(flag)
 }
 else{
     console.log(num + " is not a prime number!!");
+}*/
+
+
+
+//program to write a prime numbers found in a given interval
+let upper_limit=50;
+let lower_limit=1;
+
+let flag =true;
+
+for(let num=lower_limit;num<=upper_limit;num++)
+{
+  flag=true;
+    if(num==1)
+    {
+        console.log("1 is neither a prime number nor a composite number!!");
+    }
+    else
+    {
+        for(let i=2;i<num;i++)
+        {
+            if(num%i==0)
+            {
+                flag=false;
+            }
+        }
+    }
+    if(flag)
+    {
+        console.log(num);
+    }
+
 }
