@@ -200,10 +200,14 @@ for(let num=lower_limit;num<=upper_limit;num++)
 
 
 //program to find the factorial of a number
-let num=5;
+/*let num=5;
 let fact=1;
 for(let i=2;i<=num;i++)
 {
     fact*=i;
 }
-console.log("Factorial of "+num+ "("+num+"!)"+" is = "+fact);
+console.log("Factorial of "+num+ "("+num+"!)"+" is = "+fact);*/
+
+
+
+//program to find factorial of a number using recursion
