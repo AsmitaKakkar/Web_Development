@@ -210,4 +210,49 @@ console.log("Factorial of "+num+ "("+num+"!)"+" is = "+fact);*/
 
 
 
-//program to find factorial of a number using recursion
+//program to display multiplication table
+/*let num=12;
+for(let i=1;i<=10;i++)
+{
+    let mult=1;
+    mult=num*i;
+    console.log(num +"*"+ i+ "="+ mult );
+}
+
+*/
+
+
+//program to print fibonaccii series
+/*let num=5;
+n1=0;n2=1;
+for(let i=1;i<=num;i++)
+{
+    console.log(n1);
+    next_term=n1+n2;
+    n1=n2;
+    n2=next_term;
+}*/
+
+
+
+//program to check if a number is armstrong or not
+let num =153;
+let temp=num;
+let count=0;
+while(num>0)
+{
+    rem=num%10;
+    num=num/10;
+    count++;
+}
+let arms_num=0;
+num=temp;
+while (num>0)
+{
+    rem=num%10;
+    arms_num+=Math.pow(rem,count);
+    num=num/10;
+   
+    
+}
+console.log("arms_num = "+arms_num);
