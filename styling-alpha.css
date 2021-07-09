@@ -1,0 +1,18 @@
+section{
+    width:800px;
+    height:800px;
+    background-color: chartreuse;
+}
+
+#rgba{
+    width:50%;
+    height:50%;
+    background-color:rgb(99, 14, 48,0.7);
+}
+
+#opacity{
+    width:50%;
+    height:50%;
+    background-color:darkblue;
+    opacity:0.7;
+}
