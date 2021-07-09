@@ -1,0 +1,78 @@
+h1{
+    background-color:chartreuse;
+    border:5px solid rgb(36, 20, 8);
+    padding: 0.7em;;
+    margin:20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: lighter;
+    color: floralwhite;
+    width: 300px;
+    text-align: center;
+
+}
+
+body{
+    background-color: rgb(230, 222, 224);
+}
+
+h1:nth-of-type(2n)
+{
+    background-color: rgb(202, 176, 29);
+}
+h1:nth-of-type(3n)
+{
+    background-color: orangered;
+}
+
+h1:nth-of-type(4n)
+{
+    background-color: rgb(11, 11, 70);
+}
+
+section:first-of-type h1:nth-of-type(1)
+{
+   /* transform-origin: bottom left;*/
+    transform: rotate(30deg);
+}
+
+section:first-of-type h1:nth-of-type(2)
+{
+    transform: scale(0.5);
+}
+
+section:first-of-type h1:nth-of-type(3)
+{
+    transform: translate(-50px,100px);
+}
+
+section:first-of-type h1:nth-of-type(4)
+{
+    transform: skew(45deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(1)
+{
+    transform: skew(10deg,5deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(2)
+{
+    transform: rotate(20deg) skew(30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(3)
+{
+    transform: translate(-100px, 20px) skew(-30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4)
+{
+    transform:rotate(0.5turn) scaleY(2);
+}
+
+section:nth-of-type(2)
+{
+    transform:scale(0.5) translate(300px);
+}
+
