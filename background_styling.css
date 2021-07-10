@@ -1,0 +1,18 @@
+body{
+    background-color: black;;
+}
+section{
+    width:80%;
+    height:800px;
+    margin:0 auto;
+    background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3VyJTIwc3BsYXNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-position:left;
+    background-size: cover;
+
+}
+
+h1{
+    color:black;
+    font-size: 100px;
+
+}
