@@ -1,0 +1,15 @@
+main{
+    font-family: 'Zen Loop', cursive;
+    
+    font-size: x-large;
+    background-color: violet;
+    margin:0 auto;
+    color: black;
+    width:60%;
+}
+
+h1,h2,h3{
+    font-family: 'Qahiri',sans-serif;
+    font-weight: 400;
+
+}
