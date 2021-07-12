@@ -6,18 +6,39 @@ h1 {
 }
 #container {
     display:flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     justify-content:center;
+    flex-wrap: wrap;
     background-color: #003049;
     width: 90%;
     height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
+    align-items:flex-start;
+    /*align-content:flex-start;*/
     
 }
 
 #container div{
     width:200px;
     height:200px;
+    text-align: center;
+}
+
+div:nth-of-type(3)
+{
+    align-self:flex-end;
+}
+
+
+div:nth-of-type(4)
+{
+    align-self:center;
+}
+
+
+div:nth-of-type(2)
+{
+    align-self:center;
 }
 
