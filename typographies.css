@@ -1,0 +1,10 @@
+.btn-primary{
+    color: rgb(200, 226, 107);
+    background-color: crimson;
+
+}
+
+.btn-secondary{
+    color: darkgreen;
+    background-color: darkgrey;
+}
