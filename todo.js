@@ -1,37 +1,44 @@
-let element=prompt("What you want to do ?");
+let element=prompt("What would you want to do ?");
 
-let List={};
+const todos=["Make a pizza","Greet the guests"];
 
-while(element!='quit')
+while(element!='quit' && element !=='q')
 {
+   
     if(element==='new')
     {
-        prompt("Enter the task you want to add !!");
-        break;
+
+        const newTodo =prompt("Okay !! So, what is the new todo ?");
+        todos.push(newTodo);
+        console.log(`${newTodo} added to the list !!`);
 
     }
     else if(element==='list')
     {
-        console.log("(*************************************");
+        console.log("*************************************");
         console.log("           Todo Elements ");
         console.log("**************************************");
-        for(let i=0;i<=List.length;i++)
+        for(let i=0;i<todos.length;i++)
         {
-            console.log(List[i]);
+            console.log(`${i} : ${todos[i]}`);
         }
         
     }
     else if(element==='delete')
     {
-        let gotit=prompt("Enter the task that you want to delete from the list !!");
-        for(let del of List[del])
+        let index=parseInt(prompt("Enter the index that you want to delete from the list !!"));
+        if(!Number.isNaN(index))
         {
-            if(del===gotit)
-            {
-                console.log("Deleted ");
-            }
+            const deleted=todos.splice(index,1);
+            console.log(`Okay !! deleted ${deleted} successfully from the list !!`);
+
+        }
+        else
+        {
+            console.log("Sorry !! invalid index ");
         }
     }
+    element=prompt("What would you like to do ?");
 }
 
 if(element==='quit')
